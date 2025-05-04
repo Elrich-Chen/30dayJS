@@ -72,3 +72,29 @@ span.population {
 .hl {
   background: #ffc600;
 }
+
+.matchPresent{
+  display:none
+}
+
+/* Styling for the "NO MATCHES FOUND" message */
+.visible {
+  display: block;
+  font-size: 24px; /* Bigger font size for emphasis */
+  font-weight: bold; /* Bold text */
+  color: #333333; /* Dark text for contrast */
+  background: #fff; /* White card background */
+  border: 5px solid #ffc600; /* Yellow border to match the theme */
+  border-radius: 15px; /* Rounded corners for a modern look */
+  padding: 30px; /* Add spacing inside the card */
+  text-align: center; /* Center the text */
+  max-width: 400px; /* Limit the card width */
+  margin: 50px auto; /* Center the card horizontally and add spacing */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.visible:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
